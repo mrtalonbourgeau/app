@@ -43,6 +43,14 @@
 			<artifactId>junit-jupiter</artifactId>
 			<version>5.8.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.sonarsource.java/sonar-java-plugin -->
+		<dependency>
+		    <groupId>org.sonarsource.java</groupId>
+		    <artifactId>sonar-java-plugin</artifactId>
+		    <version>7.33.0.35775</version>
+		    <scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
